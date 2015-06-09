@@ -1,0 +1,13 @@
+{
+    "name": "Mirror cdnjs by UPYUN",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "description": "Replace cloudflare's cdnjs with the UPYUN mirror for faster speed in China.",
+    "icons": { "16": "assets/icon16.png",
+               "48": "assets/icon48.png",
+              "128": "assets/icon128.png" },
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
